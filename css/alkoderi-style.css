@@ -1,7 +1,93 @@
 body {
-  width: 600px;
-  margin: 0  auto;
-  padding: 0;
-  font-family: arial, sans-serif;
-  font-size: 16px;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	background: silver;
+}
+.container {
+	background: floralwhite;
+}
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: red;
+	text-decoration: none;
+}
+h1 {
+	margin: 0;
+	padding-left: 5px;
+	font-size: 200%;
+	color: goldenrod;
+}
+h2, h3, h4 {
+	margin: 5px 0;
+}
+h2 {
+	font-size: 170%;
+}
+.h2-overlap {
+	width: fit-content;
+	margin: -15px 0 10px;
+	padding: 1px 5px;
+	background: green;
+	color: white;
+}
+h3 {
+	font-size: 150%;
+}
+h4 {
+	font-size: 130%;
+}
+section {
+	padding: 20px;
+}
+.halo-dunia, .index-blog, .section-blog {
+	border: 1px solid black;
+	background: white;
+}
+.section-blog-marking {
+	float: right;
+	margin: -10px 10px 0;
+	padding: 1px 5px;
+	background: green;
+	text-align: right;
+	color: white;
+}
+.section-blog-content {
+	padding-left: 10px;
+	text-align: left;
+}
+p {
+	margin: 5px 0;
+	font-size: 110%;
+}
+.attachment {
+	padding: 10px;
+}
+footer {
+	font-size: 75%;
+}
+.site-info {
+	width: 100%;
+}
+.left-site-info {
+	float: left;
+	width: 33%;
+}
+.center-site-info {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.right-site-info {
+	float: right;
+	width: 33%;
+	text-align: right;
 }
